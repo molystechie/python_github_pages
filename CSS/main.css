@@ -43,7 +43,8 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: cyan;
+  background: url("img/bg.png") fixed no-repeat center;
+    
 }
 
 body {
