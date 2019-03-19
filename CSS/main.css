@@ -1,11 +1,17 @@
 html,
-body, {
+body,
+header,
+#intro {
+     /* Full height */
   height: 100%;
 }
 
+.bg-steel{
+  background-color: #90caf9;
+}
 
-.intro{
-   background: url("img/bg.png") no-repeat center center fixed;
+#intro{
+   background: url("../img/bg.png") no-repeat center fixed;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
@@ -22,12 +28,11 @@ body, {
   background-repeat: no-repeat;
   background-size: cover;*/
 
-
-   /* Full height */
-  height: 100%; 
 }
 
-.bg-steel{
-  background-color: #4bacb8 ;
+
+.view{
+  /*opacity: 0.5;*/
 }
+
 
