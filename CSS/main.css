@@ -4,6 +4,8 @@ header,
 #intro {
      /* Full height */
   height: 100%;
+  padding:0;
+  margin:0;
 }
 
 .bg-steel{
