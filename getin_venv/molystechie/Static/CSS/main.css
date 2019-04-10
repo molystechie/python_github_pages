@@ -1,1 +1,150 @@
-ECHO is on.
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+/* the best option is to create fonts.css and put all fonts there and link it in index.html*/
+@font-face{
+		font-family: "charlotte";
+		src: url("../fonts/charlotte.ttf");
+	}
+
+@font-face{
+		font-family: "spiderman";
+		src: url("../fonts/mightyspidey.ttf");
+		font-weight: normal;
+		font-style: normal;
+	}
+
+
+/* Offline fonts below */
+@font-face{
+    font-family: Lato;
+    src: url("../fonts/Lato/Lato-Regular.ttf")
+}
+@font-face{
+    font-family: Pacifico;
+    src: url("../fonts/Pacifico/Pacifico-Regular.ttf")
+}
+@font-face{
+    font-family: Righteous;
+    src: url("../fonts/Righteous/Righteous-Regular.ttf")
+}
+@font-face{
+    font-family: Roboto_Condensed;
+    src: url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf")
+}
+@font-face{
+    font-family: Ubuntu;
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf")
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+}
+
+#brand{
+    font-family:"spiderman";
+}
+
+#welc{
+    font-family:"charlotte";
+}
+
+
+#navbrandcolor{
+    color: aqua;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico';
+    font-size: 2.5em;
+    color: lightcoral !important;
+}
+
+.nav-link{
+    font-size: 1.2em;
+    margin: 15px auto;
+    color: black !important;
+    font-family: 'Roboto_Condensed';
+}
+
+.nav-link:hover{
+    color: aqua !important;
+}
+.active .nav-link{
+    color: aqua !important;
+    border-bottom: 4px solid lightcoral;
+}
+
+.menu-right-btn{
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color:lightcoral;
+    transition: all 300ms ease-in;
+}
+
+.menu-right-btn:hover{
+    color: white;
+    background-color: aqua;
+}
+
+
+.site-content {
+    background-image: url('../images/programmer\ at\ work.png');
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+}
+
+
+.site-title, .site-desc{
+    color: black;
+    font-family: "Righteous";
+}
+
+.site-title{
+    /* margin-top: increase height of container fluid    */
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 3em;
+}
+
+.site-desc{
+    font-size: 1em;
+    padding-left: 5%;
+}
+
+.site-btn1{
+    margin-left: 20%;
+}
+.site-btn1 , .site-btn2{
+    /* margin-bottom: increase height of container fluid    */
+    margin-top: 5%;
+    margin-bottom: 30%;
+}
+
+/* section-1  */
+.section-1 .heading-1{
+    margin-top: 5%;
+}
+
+.section-1 .heading-2{
+    margin-bottom: 5%;
+}
+
+.section-1 .para-1{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.section-1, .card-text, .para-1{
+    color: rgba(0, 0, 0, 0.59);
+}
+
+.section-1{
+    margin-bottom: 5%;
+}
+
+
+/* section-2  */

@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}  MolysTechie {% endblock %}
+
+
+{% block header %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a href="#" class="navbar-brand ml-3">Molys :)<span id="navbrandcolor">Techie</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collpse" data-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle Navagation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- div align nav at the center override defaut alignment -->
+                <div class="collapse navbar-collapse "></div>
+
+                <div class="collapse navbar-collapse" id ="navbarMenu">
+                    <!-- margin auto will align button store right -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a href="" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Management</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                              <a class="dropdown-item" href="#">Manage Products</a>
+                              <a class="dropdown-item" href="#">Manage Users</a>
+                              <a class="dropdown-item" href="#">Manage Contents</a>
+                              <a class="dropdown-item" href="#">Settings</a>
+                            </div>
+                          </li>
+
+                    </ul>
+
+                    <!-- margin y-2 margin lg 0class -->
+                    <form class="form-inline my-2 my-lg-0">
+                        <button class="btn menu-right-btn border" type="submit">Store</button>
+                    </form>
+                </div>
+            </nav>
+ {% endblock %}
+
+
+
+
+ {% block contents %}
+ <main>
+             <div class="container-fluid p-0">
+                 <div class="site-content">
+                     <!-- d flex will center all content in div tag -->
+                     <div class="d-flex justify-content-center">
+                         <!-- flex-column put contents in new row -->
+                         <div class="d-flex flex-column">
+                           <div class="text-center" id="comp">
+                              <div class="h1" id="brand">MolysTechie</div>
+                                <div class="h2" id="welc">You are most Welcome</div>
+                          </div>
+                             <!-- flex-row put all contents in a single row -->
+                             <div class="d-flex flex-row">
+                                 <input type="button" value="Buy" class="btn site-btn1 px-4 py-3 mr-4 btn-dark">
+                                 <input type="button" value="Know Products" class="btn site-btn2 px-4 py-3 mr-4 btn-light">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </main>
+
+
+         <div class="section-1">
+             <div class="container text-center">
+                 <h1 class="heading-1">Fantastic Products from Us</h1>
+                 <h1 class="heading-2">& You will always come back again to Us</h1>
+                 <p class="para-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                     Libero delectus dignissimos voluptate voluptatibus, atque deserunt ea ratione consequuntur earum molestias ab? Nisi suscipit aliquam saepe cum facere architecto nihil quod?</p>
+
+                 <div class="row justify-content-center text-center">
+                     <div class="col-md-4">
+                         <div class="card" style="width:20rem;">
+                             <img src="{% static 'images/Tzface.jpg' %}" alt="image1" class="card-img-top" height="280">
+                             <div class="card-body">
+                                 <h4 class="card-title">Tanzania</h4>
+                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="col-md-4">
+                          <div class="card" style="width:20rem;">
+                             <img src="{% static 'images/Idea.jpg' %}" alt="image1" class="card-img-top" height="280">
+                             <div class="card-body">
+                                 <h4 class="card-title">Idea </h4>
+                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                             </div>
+                         </div>
+                      </div>
+
+                     <div class="col-md-4">
+                         <div class="card" style="width:20rem;">
+                             <img src="{% static 'images/Female Gymnast.png' %}" alt="image1" class="card-img-top" height="280">
+                             <div class="card-body">
+                                 <h4 class="card-title">Workout</h4>
+                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                             </div>
+                         </div>
+                     </div>
+
+                 </div>
+                 </div>
+         </div>
+
+
+
+         <div class="section-2">
+
+         </div>
+  {% endblock %}
