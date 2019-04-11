@@ -99,7 +99,7 @@ body{
 
 .site-title, .site-desc{
     color: black;
-    font-family: "Righteous";
+    /* font-family: "Righteous"; */
 }
 
 .site-title{
@@ -110,7 +110,7 @@ body{
 }
 
 .site-desc{
-    font-size: 1em;
+    font-size: 2em;
     padding-left: 5%;
 }
 
